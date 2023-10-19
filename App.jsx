@@ -138,23 +138,23 @@ function CutOnX() {
       </View>
       <View style={{ borderColor: 'red', borderWidth: 2, width: '50%',display:'flex'}}>
           
-      {My != 1 ?<View>{My - 1 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 2 ?<View>{My - 2 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 3 ?<View>{My - 3 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 4 ?<View>{My - 4 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 5 ?<View>{My - 5 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 6 ?<View>{My - 6 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 7 ?<View>{My - 7 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 8 ?<View>{My - 8 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 9 ?<View>{My - 9 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 10 ?<View>{My - 10 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 11 ?<View>{My - 11 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 12 ?<View>{My - 12 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 13 ?<View>{My - 13 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 14 ?<View>{My - 14 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 15 ?<View>{My - 15 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 16 ?<View>{My - 16 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
-      {My != 17 ?<View>{My - 17 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - W - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 1 ?<View>{My - 1 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 2 ?<View>{My - 2 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 3 ?<View>{My - 3 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 4 ?<View>{My - 4 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 5 ?<View>{My - 5 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 6 ?<View>{My - 6 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 7 ?<View>{My - 7 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 8 ?<View>{My - 8 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 9 ?<View>{My - 9 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 10 ?<View>{My - 10 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 11 ?<View>{My - 11 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 12 ?<View>{My - 12 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 13 ?<View>{My - 13 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 14 ?<View>{My - 14 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 15 ?<View>{My - 15 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 16 ?<View>{My - 16 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
+      {My != 17 ?<View>{My - 17 < 0 ? <Text></Text>:<Text>vyska vypocet = {Y1 - Q - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E - Y - E}</Text>}</View>:<Text>vyska vypocet = {Y}</Text>}
       </View>
       </View>
      </View>
